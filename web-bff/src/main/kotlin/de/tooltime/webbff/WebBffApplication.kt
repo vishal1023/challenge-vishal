@@ -1,4 +1,4 @@
-package de.tooltime.user
+package de.tooltime.webbff
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -6,8 +6,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 
 @SpringBootApplication
 @EnableFeignClients
-class TimetrackingApplication
+class WebBffApplication
 
 fun main(args: Array<String>) {
-    runApplication<TimetrackingApplication>(*args)
+    runApplication<WebBffApplication>(*args)
 }

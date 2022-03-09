@@ -1,10 +1,10 @@
-package de.tooltime.webbff
+package de.tooltime.user
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class TimetrackingApplicationTests {
+class UserApplicationTests {
 
 	@Test
 	fun contextLoads() {
