@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  bff:
+    build:
+      context: web-bff
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8080"
+    environment:
+      ENVIRONMENT: dev
+  user-service:
+    build:
+      context: user
+      dockerfile: Dockerfile
+    environment:
+      ENVIRONMENT: dev
+  timetracking-service:
+    build:
+      context: timetracking
+      dockerfile: Dockerfile
+    environment:
+      ENVIRONMENT: dev
