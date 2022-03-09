@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.model
+package de.tooltime.webbff.model
 
 import java.util.UUID
 

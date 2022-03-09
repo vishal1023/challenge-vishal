@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.client.user
+package de.tooltime.webbff.client.user
 
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping

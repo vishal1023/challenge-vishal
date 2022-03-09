@@ -1,7 +1,7 @@
-package de.tooltime.timetracking.persistence
+package de.tooltime.webbff.persistence
 
-import de.tooltime.timetracking.client.timetracking.TimeTrackingClient
-import de.tooltime.timetracking.model.TimeTracking
+import de.tooltime.webbff.client.timetracking.TimeTrackingClient
+import de.tooltime.webbff.model.TimeTracking
 import org.springframework.stereotype.Repository
 
 @Repository

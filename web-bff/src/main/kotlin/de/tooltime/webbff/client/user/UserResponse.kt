@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.client.user
+package de.tooltime.webbff.client.user
 
 import java.util.UUID
 

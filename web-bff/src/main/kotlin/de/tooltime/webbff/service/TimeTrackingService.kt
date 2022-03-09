@@ -1,6 +1,6 @@
-package de.tooltime.timetracking.service
+package de.tooltime.webbff.service
 
-import de.tooltime.timetracking.persistence.TimeTrackingRepository
+import de.tooltime.webbff.persistence.TimeTrackingRepository
 import org.springframework.stereotype.Service
 
 @Service

@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.controller.dto
+package de.tooltime.webbff.controller.dto
 
 import java.time.LocalDateTime
 import java.util.UUID

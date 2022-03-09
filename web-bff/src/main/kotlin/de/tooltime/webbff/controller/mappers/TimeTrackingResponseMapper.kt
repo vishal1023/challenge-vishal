@@ -1,7 +1,7 @@
-package de.tooltime.timetracking.controller.mappers
+package de.tooltime.webbff.controller.mappers
 
-import de.tooltime.timetracking.controller.dto.TimeTrackingResponse
-import de.tooltime.timetracking.model.TimeTracking
+import de.tooltime.webbff.controller.dto.TimeTrackingResponse
+import de.tooltime.webbff.model.TimeTracking
 
 fun TimeTrackingResponse.Companion.fromModel(timeTracking: TimeTracking) =
     TimeTrackingResponse(

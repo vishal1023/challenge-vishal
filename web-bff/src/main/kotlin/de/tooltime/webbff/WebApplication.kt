@@ -1,4 +1,4 @@
-package de.tooltime.timetracking
+package de.tooltime.webbff
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
