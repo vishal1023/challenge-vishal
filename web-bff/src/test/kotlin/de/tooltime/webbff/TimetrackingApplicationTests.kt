@@ -1,4 +1,4 @@
-package de.tooltime.timetracking
+package de.tooltime.webbff
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
