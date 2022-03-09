@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.persistence.table
+package de.tooltime.user.persistence.table
 
 import org.jetbrains.exposed.dao.id.UUIDTable
 

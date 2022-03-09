@@ -1,7 +1,7 @@
-package de.tooltime.timetracking.persistence
+package de.tooltime.user.persistence
 
-import de.tooltime.timetracking.model.User
-import de.tooltime.timetracking.persistence.dao.UserDao
+import de.tooltime.user.model.User
+import de.tooltime.user.persistence.dao.UserDao
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.springframework.stereotype.Repository
 

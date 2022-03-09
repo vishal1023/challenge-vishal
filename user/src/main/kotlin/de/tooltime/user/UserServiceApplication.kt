@@ -1,4 +1,4 @@
-package de.tooltime.timetracking
+package de.tooltime.user
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

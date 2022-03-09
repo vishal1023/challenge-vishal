@@ -1,8 +1,8 @@
-package de.tooltime.timetracking.persistence.dao
+package de.tooltime.user.persistence.dao
 
-import de.tooltime.timetracking.model.User
-import de.tooltime.timetracking.persistence.mapper.fromRow
-import de.tooltime.timetracking.persistence.table.UserTable
+import de.tooltime.user.model.User
+import de.tooltime.user.persistence.mapper.fromRow
+import de.tooltime.user.persistence.table.UserTable
 import org.jetbrains.exposed.sql.insertAndGetId
 import org.jetbrains.exposed.sql.selectAll
 import org.springframework.stereotype.Repository

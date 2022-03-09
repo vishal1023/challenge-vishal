@@ -1,7 +1,7 @@
-package de.tooltime.timetracking.persistence.mapper
+package de.tooltime.user.persistence.mapper
 
-import de.tooltime.timetracking.model.User
-import de.tooltime.timetracking.persistence.table.UserTable
+import de.tooltime.user.model.User
+import de.tooltime.user.persistence.table.UserTable
 import org.jetbrains.exposed.sql.ResultRow
 
 fun User.Companion.fromRow(resultRow: ResultRow) = User(

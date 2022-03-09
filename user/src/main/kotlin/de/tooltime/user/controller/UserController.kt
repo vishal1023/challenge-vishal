@@ -1,9 +1,9 @@
-package de.tooltime.timetracking.controller
+package de.tooltime.user.controller
 
-import de.tooltime.timetracking.controller.dto.UserRequest
-import de.tooltime.timetracking.controller.dto.UserResponse
-import de.tooltime.timetracking.controller.mappers.fromModel
-import de.tooltime.timetracking.service.UserService
+import de.tooltime.user.controller.dto.UserRequest
+import de.tooltime.user.controller.dto.UserResponse
+import de.tooltime.user.controller.mappers.fromModel
+import de.tooltime.user.service.UserService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

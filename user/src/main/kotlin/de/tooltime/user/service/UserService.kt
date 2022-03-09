@@ -1,6 +1,6 @@
-package de.tooltime.timetracking.service
+package de.tooltime.user.service
 
-import de.tooltime.timetracking.persistence.UserRepository
+import de.tooltime.user.persistence.UserRepository
 import org.springframework.stereotype.Service
 
 @Service

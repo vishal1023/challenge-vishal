@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.controller.dto
+package de.tooltime.user.controller.dto
 
 import java.util.UUID
 
