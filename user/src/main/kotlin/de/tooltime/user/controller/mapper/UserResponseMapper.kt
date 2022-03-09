@@ -1,7 +1,7 @@
-package de.tooltime.webbff.controller.mappers
+package de.tooltime.user.controller.mapper
 
-import de.tooltime.webbff.controller.dto.UserResponse
-import de.tooltime.webbff.model.User
+import de.tooltime.user.controller.dto.UserResponse
+import de.tooltime.user.model.User
 
 fun UserResponse.Companion.fromModel(user: User) =
     UserResponse(

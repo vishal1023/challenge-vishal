@@ -2,7 +2,7 @@ package de.tooltime.timetracking.controller
 
 import de.tooltime.timetracking.controller.dto.TimeTrackingRequest
 import de.tooltime.timetracking.controller.dto.TimeTrackingResponse
-import de.tooltime.timetracking.controller.mappers.fromModel
+import de.tooltime.timetracking.controller.mapper.fromModel
 import de.tooltime.timetracking.service.TimeTrackingService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

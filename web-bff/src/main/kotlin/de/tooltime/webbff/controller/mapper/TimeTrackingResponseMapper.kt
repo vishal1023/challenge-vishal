@@ -1,4 +1,4 @@
-package de.tooltime.webbff.controller.mappers
+package de.tooltime.webbff.controller.mapper
 
 import de.tooltime.webbff.controller.dto.TimeTrackingResponse
 import de.tooltime.webbff.model.TimeTracking

@@ -1,4 +1,4 @@
-package de.tooltime.timetracking.controller.mappers
+package de.tooltime.timetracking.controller.mapper
 
 import de.tooltime.timetracking.controller.dto.TimeTrackingResponse
 import de.tooltime.timetracking.model.TimeTracking

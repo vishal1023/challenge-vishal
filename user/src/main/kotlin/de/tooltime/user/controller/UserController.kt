@@ -2,7 +2,7 @@ package de.tooltime.user.controller
 
 import de.tooltime.user.controller.dto.UserRequest
 import de.tooltime.user.controller.dto.UserResponse
-import de.tooltime.user.controller.mappers.fromModel
+import de.tooltime.user.controller.mapper.fromModel
 import de.tooltime.user.service.UserService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

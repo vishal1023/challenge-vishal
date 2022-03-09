@@ -2,7 +2,7 @@ package de.tooltime.webbff.controller
 
 import de.tooltime.webbff.controller.dto.TimeTrackingResponse
 import de.tooltime.webbff.controller.dto.UserResponse
-import de.tooltime.webbff.controller.mappers.fromModel
+import de.tooltime.webbff.controller.mapper.fromModel
 import de.tooltime.webbff.service.TimeTrackingService
 import de.tooltime.webbff.service.UserService
 import org.springframework.http.HttpStatus
