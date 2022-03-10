@@ -1,5 +1,6 @@
 package de.tooltime.user.service
 
+import de.tooltime.user.model.User
 import de.tooltime.user.persistence.UserRepository
 import org.springframework.stereotype.Service
 
@@ -14,4 +15,8 @@ class UserService(
 
     fun list() =
         userRepository.list()
+
+    fun sortedUsers(): List<User> {
+        userRepository.sortedUser()
+    }
 }

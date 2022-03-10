@@ -20,4 +20,8 @@ class UserRepository(
         transaction {
             return@transaction userDao.selectAll()
         }
+
+    fun sortedUser() {
+
+    }
 }

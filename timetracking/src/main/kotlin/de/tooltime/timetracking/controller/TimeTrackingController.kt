@@ -30,4 +30,8 @@ class TimeTrackingController(
             HttpStatus.OK
         )
     }
+
+    @GetMapping("/timetracking/") {
+
+    }
 }

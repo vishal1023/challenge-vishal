@@ -30,4 +30,12 @@ class UserController(
             HttpStatus.OK
         )
     }
+
+    @GetMapping("/users?soft={softBy}")
+    fun sortedUsers(): ResponseEntity<List<UserResponse>> {
+        return ResponseEntity(
+            userService.sortedUsers()
+            HttpStatus.OK
+        )
+    }
 }
