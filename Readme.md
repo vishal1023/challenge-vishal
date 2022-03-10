@@ -10,8 +10,8 @@ Our microservice-oriented architecture is continuously evolving. The foundation 
 Of course in such setup new challenges arise quickly. One of the trade-offs we had to deal with is that when moving to microservices we lost the way the database deals with transactional operations. 
 The other one is that the network adds a bit of latency here and there when we need to communicate over http rather than code.  
 
-Now, none of these issues we will be fixing today. What we ought todo is a to build a feature where we need to show the list of the times where users tracked their work. 
-We want to display the first 50 entries, sorted by the last name of the user who had logged the work time.
+Now, none of these issues we will be fixing today. What we ought todo is to build a feature where we need to show the list of the times where users tracked their work. 
+We want to display the first 5 entries, sorted by the last name of the user who had logged the work time.
 
 ### Features
 As a User 
