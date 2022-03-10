@@ -3,14 +3,14 @@ INSERT INTO public.user (id,
                          last_name)
 VALUES ('abf9c875-cd13-424d-b096-98eaea384370',
         'Adam',
-        'Musterman');
+        'Amazing');
 
 INSERT INTO public.user (id,
                          first_name,
                          last_name)
 VALUES ('90a497fa-d4d9-407d-885c-d2e32ed47a1e',
         'Beatrice',
-        'Amazing');
+        'Musterman');
 
 INSERT INTO public.user (id,
                          first_name,
