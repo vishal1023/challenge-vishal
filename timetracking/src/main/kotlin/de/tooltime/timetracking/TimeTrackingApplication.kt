@@ -6,8 +6,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 
 @SpringBootApplication
 @EnableFeignClients
-class TimetrackingApplication
+class TimeTrackingApplication
 
 fun main(args: Array<String>) {
-    runApplication<TimetrackingApplication>(*args)
+    runApplication<TimeTrackingApplication>(*args)
 }
