@@ -8,4 +8,4 @@ FROM openjdk:11.0.6-jre-buster AS run
 EXPOSE 8080
 RUN mkdir /app
 COPY --from=build /home/gradle/src/build/libs/*.jar /app/application.jar
-ENTRYPOINT ["java", "-Dspring.profiles.active=docker", "-jar", "/app/application.jar"]
+ENTRYPOINT ["java", "-jar", "/app/application.jar"]
